@@ -1,0 +1,5 @@
+package linterforintership
+
+func main() {
+
+}

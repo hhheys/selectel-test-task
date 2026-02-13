@@ -1,0 +1,22 @@
+enable_english_letter_rule: true
+enable_lowercase_rule: true
+enable_no_special_rule: true
+enable_sensitive_rule: true
+
+sensitive_keywords:
+  - password
+  - passwd
+  - pwd
+  - token
+  - api_key
+  - apikey
+  - secret
+  - private_key
+  - credential
+
+forbidden_runes:
+  - "!"
+  - "?"
+  - "."
+  - ":"
+  - ";"
