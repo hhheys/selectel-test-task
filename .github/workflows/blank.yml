@@ -28,4 +28,4 @@ jobs:
       - name: Build plugin
         run: |
           mkdir -p build
-          go build -buildmode=plugin -o build/myplugin.so ./cmd/myplugin
+          go build -buildmode=plugin -o build/loglinter.so ./cmd/loglinter
