@@ -1,0 +1,15 @@
+run:
+  tests: true
+  
+linters-settings:
+  custom:
+    loglinter:
+      path: ./loglinter.exe
+      description: "Кастомный анализатор"
+      original-url: https://github.com/example/lintanalyzer
+
+linters:
+  enable:
+    - loglinter
+
+version: 2
