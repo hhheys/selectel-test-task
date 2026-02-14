@@ -7,7 +7,7 @@ import (
 )
 
 var LogSpecialSymbolAnalyzer = &analysis.Analyzer{
-	Name: "loglowercase",
+	Name: "logspecialsymbol",
 	Doc:  "checks that log messages start with a lowercase letter",
 	Run:  logSpecialSymbolCheck,
 }

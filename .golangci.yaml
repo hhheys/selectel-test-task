@@ -1,0 +1,9 @@
+linters-settings:
+  custom:
+    loglinter:
+      path: .\bin\loglinter.exe
+      description: Custom log linter
+
+linters:
+  enable:
+    - loglinter
